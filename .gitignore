@@ -1,0 +1,48 @@
+
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+
+.DS_Store
+.svn/
+egrant-webapp/overlays/
+app-static-resource/pdf/
+egrant-agent/log/
+egrant-agent/logs/
+egrant-compare-app/overlays/
+egrant-jiangxi/overlays/
+app-static-resource/prp_pdf/
+ServersIdea/temp/
+
+# 这本就不属于江西科技厅项目中的模块，这是公司封装的redis工具包由产品组维护。在git和wiki中均有相关文档
+egrant-redis/
